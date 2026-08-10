@@ -1,0 +1,51 @@
+donation_id,org_id,program_id,donor_name,donor_type,amount_krw,donation_date,payment_method,is_recurring
+9001,5,111,Busan Metropolitan City,government,"₩40,000,000",2025-05-16,bank_transfer,N
+9002,1,,Jung Min-seok,individual,30000,2024-05-24,CREDIT_CARD,
+9003,5,111,Jung Min-seok,individual,"₩200,000",2024-09-21,kakao_pay,0
+9004,3,,Kim Tae-woo,individual,150000,2025-05-20,kakao_pay,1
+9005,5,111,Ministry of Environment,government,"₩80,000,000",2024-08-08,bank_transfer,0
+9006,5,,Lee Hyun-ji,individual,"₩200,000",2025-04-22,kakao_pay,0
+9007,5,111,Jung Min-seok,individual,"150,000 KRW",2025-05-01,credit_card,N
+9008,4,109,Busan Savings Bank,corporate,"₩5,000,000",2024-10-05,Bank Transfer,0
+9009,3,,Busan Savings Bank,corporate,25000000,2025-09-08,credit_card,false
+9010,1,,Park Jong-su,individual,"500,000 KRW",2025-01-13,cash,
+9011,2,104,Nexen Retail Group,corporate,5000000,2025-01-19,Bank Transfer,N
+9012,6,113,Jung Min-seok,individual,"150,000 KRW",2024-02-26,kakao_pay,1
+9013,5,,Nexen Retail Group,corporate,"5,000,000",2025-02-20,CREDIT_CARD,true
+9014,1,103,Nexen Retail Group,corporate,"2,000,000 KRW",2025-10-21,credit_card,Y
+9015,2,,Choi Da-hye,individual,"50,000 KRW",2025-05-22,bank_transfer,
+9016,4,110,Seoul City Welfare Office,government,"40,000,000",2025-11-08,kakao_pay,false
+9017,2,,Lee Hyun-ji,individual,500000,2025-06-02,cash,0
+9018,4,109,Ministry of Environment,government,"₩15,000,000",2024-07-19,CREDIT_CARD,N
+9019,1,103,Kim Tae-woo,individual,"30,000",2025-11-01,CREDIT_CARD,
+9020,2,105,Busan Metropolitan City,government,80000000,2025-06-17,credit_card,
+9021,4,,Dongbu Steel,corporate,"25,000,000 KRW",2025-01-08,kakao_pay,1
+9022,3,,Dongbu Steel,corporate,10000000,2024-02-19,kakao_pay,Y
+9023,5,112,Busan Metropolitan City,government,"₩40,000,000",2025-01-08,Bank Transfer,
+9024,6,,Busan Savings Bank,corporate,"10,000,000",2025-04-30,CREDIT_CARD,N
+9025,6,,Nexen Retail Group,corporate,2000000,2024-11-24,kakao_pay,0
+9026,2,104,Lee Hyun-ji,individual,"₩500,000",2025-01-18,kakao_pay,N
+9027,1,102,Seoul City Welfare Office,government,"40,000,000",2025-03-28,CREDIT_CARD,1
+9028,3,107,Anonymous,individual,100000,2025-03-22,bank_transfer,0
+9029,6,114,Dongbu Steel,corporate,"10,000,000",2025-11-07,Bank Transfer,N
+9030,1,103,Hanil Logistics,corporate,"5,000,000",2025-07-23,bank_transfer,
+9031,4,109,Kang Bo-ra,individual,500000,2024-10-15,cash,
+9032,6,113,Sejong Pharma,corporate,"₩2,000,000",2024-12-28,credit_card,N
+9033,1,101,Seoul City Welfare Office,government,"40,000,000",2024-01-22,CREDIT_CARD,N
+9034,4,110,Park Jong-su,individual,"100,000",2025-10-20,credit_card,
+9035,6,113,Busan Metropolitan City,government,15000000,2024-08-24,credit_card,0
+9036,3,107,Seoul City Welfare Office,government,"40,000,000",2024-09-16,bank_transfer,0
+9037,3,,Jung Min-seok,individual,"200,000",2024-07-20,kakao_pay,
+9038,6,113,Busan Metropolitan City,government,15000000,2024-12-23,bank_transfer,
+9039,4,109,Kim Tae-woo,individual,"100,000 KRW",2024-06-02,credit_card,true
+9040,1,102,Dongbu Steel,corporate,"25,000,000",2025-06-18,kakao_pay,1
+9041,4,,Busan Savings Bank,corporate,5000000,2024-04-19,bank_transfer,
+9042,2,105,Anonymous,individual,50000,2025-08-22,CREDIT_CARD,Y
+9043,5,111,Busan Savings Bank,corporate,2000000,2024-07-21,credit_card,0
+9044,5,111,Jung Min-seok,individual,150000,2024-09-21,credit_card,0
+9045,2,104,Seoul City Welfare Office,government,15000000,2024-04-26,CREDIT_CARD,1
+9046,6,114,Busan Savings Bank,corporate,"25,000,000",2025-05-09,kakao_pay,Y
+9047,4,110,Anonymous,individual,"₩100,000",2025-09-21,credit_card,true
+9048,5,,Kang Bo-ra,individual,"150,000",2025-04-02,bank_transfer,true
+9049,3,107,Nexen Retail Group,corporate,"-5,000,000",2025-02-19,bank_transfer,N
+9050,4,110,Anonymous,individual,"100,000",2023-08-04,kakao_pay,N

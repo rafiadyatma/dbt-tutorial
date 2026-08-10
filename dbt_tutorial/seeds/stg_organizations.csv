@@ -1,0 +1,7 @@
+org_id,org_name,org_type,city,region,founded_year,registration_no,is_active
+1,Busan Literacy Alliance,Education,Busan,Busan,2011,BSN-2011-0417,TRUE
+2, Green Streets Korea,Environment,seoul,Seoul,2015,SEL-2015-1122,true
+3,Food Bridge Foundation,Food Security,BUSAN ,Busan,2008,BSN-2008-0093,Y
+4,Youth Code Collective,education,Daegu,Daegu,,DGU-2019-0755,1
+5,Clean Water Now,Environment,Incheon,Incheon,2013,,TRUE
+6,Silver Care Network,Elder Care,Busan,Busan,2017,BSN-2017-3301,FALSE

@@ -1,0 +1,139 @@
+[0m20:08:41.554873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8a30eebc20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8a3026c1a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8a30d21a30>]}
+
+
+============================== 20:08:41.567793 | c40ea7da-afdf-4537-b4e0-5d411bcee3aa ==============================
+[0m20:08:41.567793 [info ] [MainThread]: Running with dbt=1.12.0
+[0m20:08:41.569823 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'invocation_command': 'dbt init dbt', 'no_print': 'None', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'log_format': 'default', 'use_experimental_parser': 'False', 'introspect': 'True', 'use_colors': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'log_cache_events': 'False', 'version_check': 'True', 'quiet': 'False', 'profiles_dir': '/home/rafiadyatma/.dbt', 'empty': 'None', 'log_path': 'logs', 'maximum_seed_size_mib': '1', 'send_anonymous_usage_stats': 'True', 'hints_enabled': 'True', 'target_path': 'None', 'debug': 'False', 'warn_error': 'None', 'partial_parse': 'True'}
+[0m20:08:41.607493 [info ] [MainThread]: Creating dbt configuration folder at /home/rafiadyatma/.dbt
+[0m20:09:04.176316 [debug] [MainThread]: Starter project path: /home/rafiadyatma/dbt-tutorial/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m20:09:04.199245 [info ] [MainThread]: Setting up your profile.
+[0m20:10:38.034066 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+
+[0m20:10:38.093420 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/rafiadyatma/dbt-tutorial/.venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 190, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rafiadyatma/dbt-tutorial/.venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 136, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rafiadyatma/dbt-tutorial/.venv/lib/python3.12/site-packages/dbt/cli/main.py", line 503, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/rafiadyatma/dbt-tutorial/.venv/lib/python3.12/site-packages/dbt/task/init.py", line 360, in run
+    self.setup_profile(profile_name)
+  File "/home/rafiadyatma/dbt-tutorial/.venv/lib/python3.12/site-packages/dbt/task/init.py", line 264, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "/home/rafiadyatma/dbt-tutorial/.venv/lib/python3.12/site-packages/dbt/task/init.py", line 181, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "/home/rafiadyatma/dbt-tutorial/.venv/lib/python3.12/site-packages/dbt/task/init.py", line 165, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rafiadyatma/dbt-tutorial/.venv/lib/python3.12/site-packages/dbt/task/init.py", line 131, in generate_target_from_input
+    target[key] = click.prompt(
+                  ^^^^^^^^^^^^^
+  File "/home/rafiadyatma/dbt-tutorial/.venv/lib/python3.12/site-packages/click/termui.py", line 218, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/rafiadyatma/dbt-tutorial/.venv/lib/python3.12/site-packages/click/termui.py", line 201, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m20:10:38.098505 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 116.66796, "process_in_blocks": "70720", "process_kernel_time": 0.480285, "process_mem_max_rss": "111780", "process_out_blocks": "80", "process_user_time": 2.397359}
+[0m20:10:38.099351 [debug] [MainThread]: Command `dbt init` failed at 20:10:38.099190 after 116.67 seconds
+[0m20:10:38.099897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8a30e2bfb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8a301d1640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8a2fef5f70>]}
+[0m20:10:38.100562 [debug] [MainThread]: Flushing usage events
+[0m20:10:39.120063 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:44:38.138186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77435d8a3410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77435d1f5130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77435d1f7fe0>]}
+
+
+============================== 21:44:38.141937 | cc388428-34e6-4ed5-a898-d27c20109966 ==============================
+[0m21:44:38.141937 [info ] [MainThread]: Running with dbt=1.12.0
+[0m21:44:38.142528 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'profiles_dir': '.', 'introspect': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'write_json': 'True', 'printer_width': '80', 'use_colors': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug --profiles-dir .', 'partial_parse': 'True', 'no_print': 'None', 'hints_enabled': 'True', 'maximum_seed_size_mib': '1', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'static_parser': 'True', 'quiet': 'False', 'version_check': 'True', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'debug': 'False', 'empty': 'None', 'log_format': 'default'}
+[0m21:44:38.196107 [info ] [MainThread]: dbt version: 1.12.0
+[0m21:44:38.196660 [info ] [MainThread]: python version: 3.12.3
+[0m21:44:38.197229 [info ] [MainThread]: python path: /home/rafiadyatma/dbt-tutorial/.venv/bin/python3
+[0m21:44:38.197749 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m21:44:38.198252 [info ] [MainThread]: Using profiles dir at .
+[0m21:44:38.198673 [info ] [MainThread]: Using profiles.yml file at ./profiles.yml
+[0m21:44:38.199098 [info ] [MainThread]: Using dbt_project.yml file at /home/rafiadyatma/dbt-tutorial/dbt_project.yml
+[0m21:44:38.199536 [info ] [MainThread]: Configuration:
+[0m21:44:38.200357 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m21:44:38.201144 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:44:38.201542 [info ] [MainThread]: Required dependencies:
+[0m21:44:38.202038 [debug] [MainThread]: Executing "git --help"
+[0m21:44:38.210349 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:44:38.210855 [debug] [MainThread]: STDERR: "b''"
+[0m21:44:38.211268 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:44:38.211653 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m21:44:38.212236 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:44:38.212701 [info ] [MainThread]: dbt looked for a profiles.yml file in ./profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m21:44:38.213176 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/rafiadyatma/dbt-tutorial/dbt_project.yml> not found
+
+[0m21:44:38.214521 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.15758573, "process_in_blocks": "56", "process_kernel_time": 0.732671, "process_mem_max_rss": "107484", "process_out_blocks": "16", "process_user_time": 2.015836}
+[0m21:44:38.214949 [debug] [MainThread]: Command `dbt debug` failed at 21:44:38.214870 after 0.16 seconds
+[0m21:44:38.215620 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77435c888b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77435d855fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77435c61ca10>]}
+[0m21:44:38.215947 [debug] [MainThread]: Flushing usage events
+[0m21:44:39.080780 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:23:51.149187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eae08ad66c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eae0800d700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eae08ad5070>]}
+
+
+============================== 00:23:51.191710 | 401d8e3c-0d7d-43b0-aec2-2daad5a086af ==============================
+[0m00:23:51.191710 [info ] [MainThread]: Running with dbt=1.12.0
+[0m00:23:51.192579 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'partial_parse': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'printer_width': '80', 'write_json': 'True', 'log_format': 'default', 'log_path': 'logs', 'profiles_dir': '.', 'hints_enabled': 'True', 'debug': 'False', 'version_check': 'True', 'introspect': 'True', 'use_colors': 'True', 'empty': 'None', 'static_parser': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'warn_error': 'None', 'quiet': 'False', 'invocation_command': 'dbt debug --profiles-dir .', 'send_anonymous_usage_stats': 'True'}
+[0m00:23:51.235081 [info ] [MainThread]: dbt version: 1.12.0
+[0m00:23:51.235829 [info ] [MainThread]: python version: 3.12.3
+[0m00:23:51.236431 [info ] [MainThread]: python path: /home/rafiadyatma/dbt-tutorial/.venv/bin/python3
+[0m00:23:51.237115 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m00:23:51.237604 [info ] [MainThread]: Using profiles dir at .
+[0m00:23:51.237935 [info ] [MainThread]: Using profiles.yml file at ./profiles.yml
+[0m00:23:51.238252 [info ] [MainThread]: Using dbt_project.yml file at /home/rafiadyatma/dbt-tutorial/dbt_project.yml
+[0m00:23:51.238550 [info ] [MainThread]: Configuration:
+[0m00:23:51.238767 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m00:23:51.238979 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m00:23:51.239171 [info ] [MainThread]: Required dependencies:
+[0m00:23:51.239396 [debug] [MainThread]: Executing "git --help"
+[0m00:23:51.253855 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m00:23:51.254644 [debug] [MainThread]: STDERR: "b''"
+[0m00:23:51.255226 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m00:23:51.255844 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m00:23:51.256487 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m00:23:51.257074 [info ] [MainThread]: dbt looked for a profiles.yml file in ./profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m00:23:51.257819 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/rafiadyatma/dbt-tutorial/dbt_project.yml> not found
+
+[0m00:23:51.259152 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.18388145, "process_in_blocks": "53560", "process_kernel_time": 0.368165, "process_mem_max_rss": "106644", "process_out_blocks": "16", "process_user_time": 1.781581}
+[0m00:23:51.259781 [debug] [MainThread]: Command `dbt debug` failed at 00:23:51.259647 after 0.18 seconds
+[0m00:23:51.270592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eae0c75b3e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eae091d7d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eae07dc8350>]}
+[0m00:23:51.271192 [debug] [MainThread]: Flushing usage events
+[0m00:23:52.155131 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:01:29.890005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b4538546e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b4538677110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b4536852360>]}
+
+
+============================== 23:01:29.919237 | a75ac861-618f-4aaa-bb17-10ae956fda97 ==============================
+[0m23:01:29.919237 [info ] [MainThread]: Running with dbt=1.12.0
+[0m23:01:29.921612 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'write_json': 'True', 'log_format': 'default', 'cache_selected_only': 'False', 'version_check': 'True', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'partial_parse': 'True', 'log_cache_events': 'False', 'maximum_seed_size_mib': '1', 'profiles_dir': '/home/rafiadyatma/.dbt', 'static_parser': 'True', 'empty': 'False', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'warn_error': 'None', 'hints_enabled': 'True', 'log_path': 'logs', 'invocation_command': 'dbt seed', 'no_print': 'None', 'introspect': 'True', 'fail_fast': 'False'}
+[0m23:01:29.923157 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/rafiadyatma/dbt-tutorial/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:01:29.935808 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.2551177, "process_in_blocks": "77272", "process_kernel_time": 0.661135, "process_mem_max_rss": "107032", "process_out_blocks": "8", "process_user_time": 2.275978}
+[0m23:01:29.937454 [debug] [MainThread]: Command `dbt seed` failed at 23:01:29.937145 after 0.26 seconds
+[0m23:01:29.938492 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b4536363ce0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b4536361430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b45355f8230>]}
+[0m23:01:29.939851 [debug] [MainThread]: Flushing usage events
+[0m23:01:31.267123 [debug] [MainThread]: An error was encountered while trying to flush usage events

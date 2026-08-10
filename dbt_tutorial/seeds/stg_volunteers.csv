@@ -1,0 +1,15 @@
+volunteer_id,full_name,skill_area,joined_date,city,is_active
+701,Cho Hyun-woo,Translation,2023-11-14,Incheon,N
+702,Kwon So-young,Admin,2024-10-26,Daegu,true
+703,Kang Eun-woo,Admin,2024-12-23,Seoul,N
+704,Jung Eun-woo,Teaching,2024-06-27,Busan,TRUE
+705,Jung Mi-kyung,IT Support,2025-01-07,Busan,Y
+706,Oh Ji-woo,Teaching,2025-07-16,Daegu,N
+707,Kim Na-rae,Cooking,2024-07-22,Busan,true
+708,Hwang Sung-ho,Driving,2025-11-14,Busan,Y
+709,Cho Eun-woo,Admin,2025-01-22,Seoul,N
+710,Kwon Seo-yeon,Logistics,2024-10-25,Seoul,Y
+711,Choi Ji-ho,Driving,2023-10-10,Incheon,FALSE
+712,Kim Tae-hyun,Translation,2023-01-19,busan,Y
+713,Shin Mi-kyung,Gardening,2025-01-14,Busan,FALSE
+714,Lee Su-bin,Admin,2025-11-16,Daegu,FALSE

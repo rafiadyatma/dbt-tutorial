@@ -1,0 +1,15 @@
+program_id,org_id,program_name,program_type,start_date,end_date,budget_krw,status
+101,1,Adult Reading Circles,Literacy,2024-01-15,2024-12-20,"45,000,000",completed
+102,1,After-School Tutoring,Literacy,2024-03-01,,"62,500,000",active
+103,1,Library Outreach Van,Literacy,2025-02-10,,"28,000,000",Active
+104,2,Rooftop Garden Initiative,Urban Greening,15/04/2024,2025-04-14,"120,000,000",completed
+105,2,Street Tree Census,Urban Greening,2025-01-06,,"34,750,000",ACTIVE
+106,3,Community Meal Program,Food Security,2023-09-01,2024-08-31,"78,000,000",completed
+107,3,Surplus Food Rescue,Food Security,2024-06-01,,"95,200,000",active
+108,3,School Breakfast Pilot,Food Security,2025-03-02,,"41,000,000",active
+109,4,Weekend Coding Bootcamp,Digital Skills,2024-05-11,2024-11-30,"32,000,000",completed
+110,4,Girls in Tech Mentoring,Digital Skills,2025-01-20,,"27,400,000",active
+111,5,Well Restoration Project,Water,01/07/2024,,"210,000,000",active
+112,5,Water Quality Monitoring,Water,2024-10-15,,"58,900,000",active
+113,6,Home Visit Companions,Elder Care,2023-11-01,2025-01-31,"66,300,000",completed
+114,6,Digital Literacy for Seniors,Elder Care,2025-04-01,,"19,800,000",paused
